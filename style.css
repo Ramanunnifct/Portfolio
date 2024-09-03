@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  
+}
+header{
+background-color: rgb(2, 17, 22);
+color: rgb(58, 93, 138);
+height: 80px;
+display: flex;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+.logo{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.navbar{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* nav ul{
+list-style-type: none;
+padding: 12px;
+text-align: right;
+padding-right: 80px;
+
+
+
+
+} */
+nav ul li {
+display: inline;
+margin-right: 20px;
+
+}
+
+nav ul li a {
+text-decoration:none ;
+color: white;
+font-weight:bold ;
+margin: 12px;
+margin-left: 5x;
+
+
+}
+nav ul li a:hover{
+  color: rgb(131, 33, 33);
+  transition: 0.5s;
+  
+}
+
+footer {
+background-color: #0b0c22;
+color: white;
+text-align: center;
+padding: 30px;
+bottom: 0;
+width: 100%;
+}
+
+
+main {
+background-color: #ffffff;
+height: auto;
+}
+
+#page-1 {
+height: 700px;
+display: flex; 
+justify-content: center;
+align-items: center;
+
+}
+.content{
+  width: 60%;
+  padding: 0px 50px ;
+}
+.photo-1{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.image {
+width: 200px;
+border-radius: 15%;
+}
+
+#page-2 {
+height: 500px;
+background-color: rgb(98, 98, 182);
+display: flex;
+align-items: center;
+}
+
+.about-me {
+width: 60%;
+font-size: 20px  ;
+padding: 0px 35px;
+}
+.photo-2{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.image-2{
+  width: 300px;
+  border-radius: 15%;
+}
+
+#page-3
+{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+input {
+height: 30px;
+width: 400px;
+margin: 5px 0px;
+
+
+}
+/* .contact-me {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 5px solid black;
+padding:100px;
+background-color: ;
+} */
+
+.form-box {
+  width: 80%;
+  background-color: rgb(90, 73, 73);
+  height: 400px;
+  display: flex;
+}
+.my-details
+{
+  
+  height: 200px; 
+  width: 50%;
+}
+article{
+  width:300px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  font-size: larger;
+  color: white;
+}
+
+button{
+margin-top: 60px;
+width: 100px;
+padding: 10px;
+border-radius: 30px;
+border: #333;
+cursor: pointer;
+text-align: center;
+margin-left: 50%;
+}
+button:hover {
+background-color: blue;
+transition: 0.5s;
+
+}
+
+@media only screen and (max-width:500px) {
+  main {
+    background-color:aqua;
+    height: auto;
+    }
+}
